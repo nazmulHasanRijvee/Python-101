@@ -62,6 +62,35 @@ var_ch = 'Hi'
 print(var_ch in 'Hi, I am Nazmul') # True
 
 
+""" * operator (list unpacking)"""
+# * unpacks list in the serial order and solves pointing
+# to same memory address problem (DSA)
+var_list = [2, 3, 5]
+copied_list = [*var_list]
+print(copied_list)
+
+# unpacking list for function parameters of arguments
+def total(var_a, var_b, var_c):
+    return var_a + var_b + var_c
+print(total(*var_list)) # 10
+
+
+"""** operator (dictionary unpacking)"""
+# ** unpacks dictionary in the serial order
+var_dict = {
+    "name" : "Nazmul",
+    "age" : 23
+}
+copied_dict = {**var_dict}
+print(copied_dict)
+
+# unpacking dictionary for function for parameters or arguments
+def info(var_1, var_2):
+    print(var_1, var_2)
+
+info(**var_dict)
+
+
 """& and | bits"""
 # 101  101
 # 100  100

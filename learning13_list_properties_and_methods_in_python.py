@@ -120,11 +120,13 @@ print(min(nums2)) # 1
 
 
 """list unpacking"""
-# * unpacks list in the serial order. list() solves pointing
+# * unpacks list in the serial order and solves pointing
 # to same memory address problem (DSA)
+var_list10 = [2, 3, 5]
+copied_list = [*var_list10]
+print(copied_list)
+
+# unpacking list for function parameters
 def total(a, b, c):
     return a + b + c
-var_list10 = [2, 3, 5]
 print(total(*var_list10)) # 10
-copied_list = list(var_list10)
-print(copied_list)

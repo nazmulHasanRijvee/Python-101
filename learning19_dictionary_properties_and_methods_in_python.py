@@ -93,6 +93,22 @@ print(stu_info.keys()) # dict_keys(['dept', 'passing_year'])
 print(stu_info.items()) # dict_items([('dept', 'BBA'), ('passing_year', 2024)])
 
 
+"""** operator (dictionary unpacking)"""
+# ** operator unpacks dictionary in the serial order
+var_dict = {
+    "name" : "Nazmul",
+    "age" : 23
+}
+copied_dict = {**var_dict}
+print(copied_dict)
+
+# unpacking dictionary for function for parameters or arguments
+def info(var_1, var_2):
+    print(var_1, var_2)
+
+info(**var_dict)
+
+
 """loop with dictionary"""
 # 'i' stores each dictionary keys and prints them in a new line
 for i in stu_info:
