@@ -1,4 +1,5 @@
 """map() method is the for loop alternative like Dart and optimized"""
+
 # It's a built-in python function that applies a function to
 # every element of an iterable (like a list or list of dictionaries,
 # tuple or set). It takes two parameters:
@@ -6,16 +7,19 @@
 # - iterable -> The list of collection we want to process
 # map(function, iterable)
 
+
 # Here, map() method iterates over each element of the list and
 # squares the element. And returns a map object (an iterator),
 # not a list. Convert it to a list using list() method
 def square(x):
     return x * x
+
+
 numbers = [1, 2, 3, 4]
 result = map(square, numbers)
-print(result) # <map object at 0x000001A82ECEA180>
+print(result)  # <map object at 0x000001A82ECEA180>
 result = list(map(square, numbers))
-print(result) # [1, 4, 9, 16]
+print(result)  # [1, 4, 9, 16]
 
 
 """Using lambda function with map()"""
@@ -23,7 +27,8 @@ print(result) # [1, 4, 9, 16]
 # Instead, uses a lambda function.
 numbers = [1, 2, 3, 4]
 result = list(map(lambda x: x * x, numbers))
-print(result) # [1, 4, 9, 16]
+print(result)  # [1, 4, 9, 16]
+
 
 # Here, lambda x: x * x means
 def square(x):
@@ -34,7 +39,7 @@ def square(x):
 # str.upper (.upper())is a function that is applied to every string.
 names = ["alice", "bob", "charlie"]
 result = list(map(str.upper, names))
-print(result) # ['ALICE', 'BOB', 'CHARLIE']
+print(result)  # ['ALICE', 'BOB', 'CHARLIE']
 
 
 """Multiple Iterables (list)"""
@@ -45,7 +50,7 @@ print(result) # ['ALICE', 'BOB', 'CHARLIE']
 a = [1, 2, 3]
 b = [4, 5, 6]
 result = list(map(lambda x, y: x + y, a, b))
-print(result) # [5, 7, 9]
+print(result)  # [5, 7, 9]
 
 
 """Best Practices:"""

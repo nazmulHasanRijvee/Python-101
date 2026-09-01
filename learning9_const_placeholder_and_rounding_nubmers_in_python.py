@@ -30,28 +30,29 @@ for _ in range(5):
 
 # Example-3, Throwing away a value. Everything in the middle is ignored
 first, *_, last = [10, 20, 30, 30]
-print(first, last) # 10 30
+print(first, last)  # 10 30
 
 
 """Rounding Numbers"""
 # round() function
 x = 3.7
-print(round(x)) # 4
+print(round(x))  # 4
 
 # Specify decimal places in round(..., 2)
 pi = 3.145926
-print(round(pi, 2)) # 3.15
+print(round(pi, 2))  # 3.15
 
 # math.ceil() always rounds up
 import math
-print(math.ceil(3.1)) # 4
+
+print(math.ceil(3.1))  # 4
 
 # math.floor() always rounds down
-print(math.floor(3.1)) # 3
+print(math.floor(3.1))  # 3
 
 # int() but its not rounding, (Be careful)
 # it simply removes the decimal part (truncates)
-print(int(3.9)) # 3
+print(int(3.9))  # 3
 
 
 """Comparison of Round methods"""

@@ -1,4 +1,5 @@
 """Match-Case (alternative of switch)"""
+
 # # Works exactly like switch-case in Dart or C++.
 # Used to replace a large ladder of if elif
 # (nested if conditions)
@@ -11,11 +12,13 @@ match status_code:
         print("Not Found")
     case 500:
         print("Internal Server Error")
-    case _: # The underscore (_) acts as the default case
+    case _:  # The underscore (_) acts as the default case
         print("Unknow Status")
 
 
 """With return type"""
+
+
 def is_day(s):
 
     match s:
@@ -25,5 +28,6 @@ def is_day(s):
             return False
         case _:
             return False
+
 
 print(is_day("night"))

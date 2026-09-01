@@ -1,4 +1,5 @@
 """while loop"""
+
 # while loop syntax:
 # while condition:
 #   code
@@ -21,7 +22,7 @@ while var <= 10:
     var += 1
     if var < 6:
         continue
-    print(var) # 6 to 11
+    print(var)  # 6 to 11
 
 
 """break in while loop"""
@@ -29,7 +30,7 @@ var = 1
 while var <= 10:
     if var == 6:
         break
-    print(var) # 1 to 5
+    print(var)  # 1 to 5
     var += 1
 
 

@@ -1,4 +1,5 @@
 """Error Handling"""
+
 # # Syntax. try: is for errors that checks if an error
 # is happening or not. except ...: handles the error and the
 # code does not crash. finally: runs the code error or no error.
@@ -9,7 +10,7 @@ except NameError:
     # Handles the error
     pass
 finally:
-    print('finally')
+    print("finally")
 
 
 """ValueError"""
@@ -18,11 +19,11 @@ finally:
 # will run the code no matter what
 var_int = 0
 try:
-    var_int = int(input('Enter: '))
+    var_int = int(input("Enter: "))
 except ValueError:
     print("Invalid input")
 finally:
-    print(var_int) # hi - Invalid Input 0
+    print(var_int)  # hi - Invalid Input 0
 
 
 """Error handling in loop"""
@@ -32,7 +33,7 @@ finally:
 while True:
     try:
         # risky code
-        var_int = int(input('Enter: '))
+        var_int = int(input("Enter: "))
     except ValueError:
         # handles error
         print("Invalid input")
@@ -52,9 +53,10 @@ while True:
 # •	Timeout – The request took too long to get a response from the server.
 # •	RequestException – A general error that covers all other kinds of issues during a request.
 import requests
+
 try:
     response = requests.get("https://api.example.com/data", timeout=5)
-    response.raise_for_status()   # Raises an HTTPError for bad codes
+    response.raise_for_status()  # Raises an HTTPError for bad codes
     print(response.json())
 except requests.exceptions.HTTPError as errh:
     print("HTTP Error:", errh)

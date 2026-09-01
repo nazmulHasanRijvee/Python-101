@@ -1,9 +1,10 @@
 """end= keyword"""
+
 import timeit
 
-# # end= lets us print values side by side instead of going to
+# end= lets us print values side by side instead of going to
 # a new line. Whatever typed in "..." is shown.
-print("5", end= "")
+print("5", end="")
 
 
 """Overwrite using Print method"""

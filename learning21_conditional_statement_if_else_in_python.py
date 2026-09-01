@@ -1,4 +1,5 @@
 """Conditional Expressions if, elif and else"""
+
 # if condition is true that block executes. If and elif fails
 # then else executes
 var_num = 7
@@ -15,13 +16,13 @@ else:
 # else only executes when all if and elif fails
 var_fruit = "apple"
 if var_fruit == "banana":
-    print('It\'s a banana')
+    print("It's a banana")
 elif var_fruit == "orange":
-    print('It\'s a orange')
+    print("It's a orange")
 elif var_fruit == "apple":
-    print('It\'s a grape')
+    print("It's a grape")
 else:
-    print('It\'s not a fruit')
+    print("It's not a fruit")
 
 
 """Ternary Operator ... if condition else ... keywords"""
@@ -29,10 +30,11 @@ else:
 # And condition is written in the middle after if
 # instead at the first
 var_day = True
-var_result = ('Day' if var_day else 'Night')
-print(var_result) # Day
+var_result = "Day" if var_day else "Night"
+print(var_result)  # Day
 
 
 """Single line if condition"""
 var_str = "apple"
-if var_str == "apple": print('It\'s a apple')
+if var_str == "apple":
+    print("It's a apple")

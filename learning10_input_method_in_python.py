@@ -1,4 +1,5 @@
 """input() function"""
+
 # input() function is used to take inputs. Takes a string as a parameter
 # to display while taking input
 # # NOTE, always remember that
@@ -6,4 +7,4 @@
 # In order to take an integer input use data type convertion int(). This is called cast
 var1 = input("Type: ")
 var2 = int(input("Type: "))
-print(type(var1), type(var2)) # <class 'str'> <class 'int'>
+print(type(var1), type(var2))  # <class 'str'> <class 'int'>
