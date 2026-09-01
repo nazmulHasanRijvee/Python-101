@@ -1,7 +1,7 @@
 """Converting Data types in Python"""
 
 # Use str(), int(), float(), set(), list(), dic() methods
-# for converting to that data type or define (initialize)
+# for converting to that data type or define (initialize). It's called type casting
 
 var1 = "31"
 var2 = 2

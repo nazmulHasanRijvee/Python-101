@@ -10,7 +10,7 @@ print(f"This is {variable}")
 """Header alignment"""
 # In f string functions { } by writing in this format { :>{10}}
 # we can align it.
-print(f"{'Key' :>{10}}")
+print(f"{'Key':>{10}}")
 print("-" * 20)
 # Output:
 #        Key

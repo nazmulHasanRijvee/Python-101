@@ -25,7 +25,8 @@ print(var_slice1[2:])
 # it prints till the last element
 #  W  a  t  e  r
 # -5 -4 -3 -2 -1
-print(var_slice1[-4:])  # mark
+var_slice3 = "Water"
+print(var_slice3[-4:])  # ater
 
 # In here [ : : 2] is step it means after printing an element next one
 # is skipped (counts as 1), 3 means skipping by 2

@@ -23,7 +23,7 @@ print(result)  # [1, 4, 9, 16]
 
 
 """Using lambda function with map()"""
-# # Most of the time, people don't create a separate function.
+# Most of the time, people don't create a separate function.
 # Instead, uses a lambda function.
 numbers = [1, 2, 3, 4]
 result = list(map(lambda x: x * x, numbers))

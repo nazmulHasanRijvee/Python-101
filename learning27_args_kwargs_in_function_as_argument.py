@@ -3,7 +3,6 @@
 # - *args -> collects extra positional arguments or parameters
 # - **kwargs -> collects extra keyword (named) arguments or parameters
 
-
 """*args"""
 
 

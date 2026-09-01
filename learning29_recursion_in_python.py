@@ -21,7 +21,6 @@ def factorial(n):
 
 
 if __name__ == "__main__":
-
     num = 4
 
     if num < 0:

@@ -54,7 +54,7 @@ print(var4, var5)  # 25 5
 
 # By default, python supports positional parameters.
 # Just by typing parameter= it becomes named parameters
-# and position order doesn't order
+# and position order doesn't matter anymore
 def intro(name, age):
 
     print(f"Name: {name}")

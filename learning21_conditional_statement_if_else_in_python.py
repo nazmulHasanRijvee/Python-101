@@ -38,3 +38,5 @@ print(var_result)  # Day
 var_str = "apple"
 if var_str == "apple":
     print("It's a apple")
+if not var_str == "banana":
+    print("It's not a banana")

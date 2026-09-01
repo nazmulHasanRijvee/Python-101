@@ -10,7 +10,12 @@
 # Keys are written in quotation (Single or double) and values are assigned
 # by : (semicolon) and keys are separated by coma
 # prints all the keys and values side by side like this as a list
-stu_info = {"name": "Nazmul", "batch": 47, "dept": "CSE", "passing_year": 2027}
+stu_info = {
+    "name": "Nazmul",
+    "batch": 47,
+    "dept": "CSE",
+    "passing_year": 2027
+}
 print(stu_info)  #  {'name': 'Nazmul', 'batch': 47, ...}
 
 # The key written in [] third bracket will print its value
@@ -112,14 +117,23 @@ for i, j in stu_info.items():
 
 """Nested dictionary"""
 # This works like having a Sub-Key under a Key.
-contacts = {"name": {"phone": "01991407207", "email": "nhasanr18@gmail.com"}}
+contacts = {
+    "name": {
+        "phone": "01991407207",
+        "email": "nhasanr18@gmail.com"
+    }
+}
 print(contacts)  # {'name': {'phone': '01991407207', 'email': 'nhasanr18@gmail.com'}}
 
 # Using .items() method which returns the Key and Values.
 # In this case, Key and Sub-Key is returned, where
 # Sub-Key name is used to access the Value like
 # dictionary[‘name’][‘email’]
-contacts = {"name": {"phone": "01991407207", "email": "nhasanr18@gmail.com"}}
+contacts = {
+    "name": {
+        "phone": "01991407207",
+        "email": "nhasanr18@gmail.com"}
+}
 for name, info in contacts.items():
     print("\nname", name)
     print("Phone", info["phone"])

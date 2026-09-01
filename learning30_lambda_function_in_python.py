@@ -8,7 +8,6 @@
 # Syntax:
 # lambda parameters : expression
 
-
 """Basic Usage"""
 
 
@@ -26,7 +25,7 @@ lambda_square = lambda x: x * x
 print(lambda_square(5))  # 25
 
 
-"""Multiple Lambda Usage"""
+"""Multiple Parameters in Lambda function"""
 # Just using coma, we can pass multiple parameters in the lambda
 # function
 add = lambda a, b: a + b

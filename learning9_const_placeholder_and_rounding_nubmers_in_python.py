@@ -50,7 +50,7 @@ print(math.ceil(3.1))  # 4
 # math.floor() always rounds down
 print(math.floor(3.1))  # 3
 
-# int() but its not rounding, (Be careful)
+# int() but it's not rounding, (Be careful)
 # it simply removes the decimal part (truncates)
 print(int(3.9))  # 3
 
