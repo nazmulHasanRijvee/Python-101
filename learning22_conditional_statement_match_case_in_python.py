@@ -1,6 +1,6 @@
 """Match-Case (alternative of switch)"""
 
-# # Works exactly like switch-case in Dart or C++.
+# Works exactly like switch-case in Dart or C++.
 # Used to replace a large ladder of if elif
 # (nested if conditions)
 status_code = 404
@@ -17,8 +17,6 @@ match status_code:
 
 
 """With return type"""
-
-
 def is_day(s):
 
     match s:

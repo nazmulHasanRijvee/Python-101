@@ -1,5 +1,4 @@
 """Recursion"""
-
 # Syntax. recursion() is a function that calls itself. In here,
 # in return recursion is returning a value and recalls itself
 # with that value

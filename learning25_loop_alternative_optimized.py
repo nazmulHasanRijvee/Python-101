@@ -1,4 +1,4 @@
-"""map() method is the for loop alternative like Dart and optimized"""
+"""map() function is the for loop alternative like Dart and optimized"""
 
 # It's a built-in python function that applies a function to
 # every element of an iterable (like a list or list of dictionaries,
@@ -36,7 +36,7 @@ def square(x):
 
 
 """Mapping Strings"""
-# str.upper (.upper())is a function that is applied to every string.
+# str.upper (.upper())is a method that is applied to every string.
 names = ["alice", "bob", "charlie"]
 result = list(map(str.upper, names))
 print(result)  # ['ALICE', 'BOB', 'CHARLIE']

@@ -1,5 +1,4 @@
 """Lambda or Anonymous Function"""
-
 # A lambda function is a small, anonymous (unnamed) function that
 # can have any number of parentheses but only one expression
 # - lambda -> Keyword to create the anonymous function
@@ -9,13 +8,10 @@
 # lambda parameters : expression
 
 """Basic Usage"""
-
-
 # Normal function
 def square(x):
 
     return x * x
-
 
 print(square(5))  # 25
 
@@ -33,8 +29,6 @@ print(add(10, 20))  # 30
 
 
 """Using Lambda with map() Function"""
-
-
 # This is where lambda is used most often. Instead of writing:
 def double(x):
 

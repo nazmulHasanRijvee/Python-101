@@ -7,7 +7,6 @@ print(var2, var1)  # Hi 21
 
 # Swapping, just changing the positions in coma, we can swap values
 # between variables
-
 var1 = "Hello"
 var2 = 32
 var1, var2 = var2, var1
@@ -52,12 +51,12 @@ print(a >= b)  # True
 """Logic"""
 # We have and (both condition needs to be true), or (one condition needs to be true),
 # not (if condition true returns false), is (do they have the same data or same object in memory),
-# in (detects if item is present in string or list)
 print(a == 21 and b == 3)  # True
 print(a != 21 or b != 3)  # False
 print(not a == 20)  # True
 print(a is b)  # False (== alternative)
 
+# in (detects if item is present in string or list)
 var_ch = "Hi"
 print(var_ch in "Hi, I am Nazmul")  # True
 

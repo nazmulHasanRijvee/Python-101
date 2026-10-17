@@ -1,11 +1,9 @@
 """*args and **kwargs arguments in function"""
-
 # - *args -> collects extra positional arguments or parameters
 # - **kwargs -> collects extra keyword (named) arguments or parameters
 
+
 """*args"""
-
-
 # Normally, a function expects a fixed number of arguments but
 # *args lets a function accept any number of positional arguments
 # args is a tuple
@@ -24,8 +22,6 @@ print(add(1, 2, 3, 4))  # 10
 
 
 """**kwargs"""
-
-
 # Used when we need to pass any number of named arguments
 # kwargs is a dictionary.
 def person(**kwargs):
@@ -46,7 +42,6 @@ person(name="Nazmul", age=22)
 
 
 """Using Both Together"""
-
 
 def example(*args, **kwargs):
 
@@ -69,20 +64,15 @@ example(1, 2, 3, name="Nazmul", age=22)
 # Like add(*numbers) equivalent to add(10, 20)
 numbers = [10, 20]
 
-
 def add(a, b):
     print(a + b)
-
 
 add(*numbers)  # 30
 
 # ** operator unpacks a dictionary
 # equivalent to intro(name="Nazmul", age= 22)
 person = {"name": "Nazmul", "age": 22}
-
-
 def intro(name, age):
     print(name, age)
-
 
 intro(**person)

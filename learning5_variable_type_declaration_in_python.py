@@ -15,6 +15,6 @@ var_none = True
 print(var_none)
 
 """type() function"""
-# type() method is used to find out the data type of the variable
+# type() function is used to find out the data type of the variable
 print(type(var_float))  # <class 'float'>
 print(type(var_bool))  # <class 'bool'>

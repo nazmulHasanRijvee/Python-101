@@ -1,6 +1,5 @@
 """Error Handling"""
-
-# # Syntax. try: is for errors that checks if an error
+# Syntax. try: is for errors that checks if an error
 # is happening or not. except ...: handles the error and the
 # code does not crash. finally: runs the code error or no error.
 try:
@@ -39,6 +38,7 @@ while True:
         print("Invalid input")
     finally:
         print(var_int)
+
     break
 
 # NOTE: There’s also FileExistError and KeyError like ValueError

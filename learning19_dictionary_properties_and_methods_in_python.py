@@ -91,14 +91,14 @@ print(stu_info.items())  # dict_items([('dept', 'BBA'), ('passing_year', 2024)])
 
 """** operator (dictionary unpacking)"""
 # ** operator unpacks dictionary in the serial order
-var_dict = {"name": "Nazmul", "age": 23}
+var_dict = {"name2": "Nazmul", "age": 23}
 copied_dict = {**var_dict}
 print(copied_dict)
 
 
 # unpacking dictionary for function for parameters or arguments
-def info(var_1, var_2):
-    print(var_1, var_2)
+def info(name2, age):
+    print(name2, age)
 
 
 info(**var_dict)
